@@ -71,72 +71,55 @@ include CMakeFiles/Arthur.dir/flags.make
 CMakeFiles/Arthur.dir/codegen:
 .PHONY : CMakeFiles/Arthur.dir/codegen
 
-CMakeFiles/Arthur.dir/main.cpp.obj: CMakeFiles/Arthur.dir/flags.make
-CMakeFiles/Arthur.dir/main.cpp.obj: CMakeFiles/Arthur.dir/includes_CXX.rsp
-CMakeFiles/Arthur.dir/main.cpp.obj: C:/Users/Admin/Desktop/Clinton/CPP_GAME/main.cpp
-CMakeFiles/Arthur.dir/main.cpp.obj: CMakeFiles/Arthur.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Desktop\Clinton\CPP_GAME\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Arthur.dir/main.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arthur.dir/main.cpp.obj -MF CMakeFiles\Arthur.dir\main.cpp.obj.d -o CMakeFiles\Arthur.dir\main.cpp.obj -c C:\Users\Admin\Desktop\Clinton\CPP_GAME\main.cpp
+CMakeFiles/Arthur.dir/main.c.obj: CMakeFiles/Arthur.dir/flags.make
+CMakeFiles/Arthur.dir/main.c.obj: CMakeFiles/Arthur.dir/includes_C.rsp
+CMakeFiles/Arthur.dir/main.c.obj: C:/Users/Admin/Desktop/Clinton/CPP_GAME/main.c
+CMakeFiles/Arthur.dir/main.c.obj: CMakeFiles/Arthur.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Desktop\Clinton\CPP_GAME\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Arthur.dir/main.c.obj"
+	C:\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Arthur.dir/main.c.obj -MF CMakeFiles\Arthur.dir\main.c.obj.d -o CMakeFiles\Arthur.dir\main.c.obj -c C:\Users\Admin\Desktop\Clinton\CPP_GAME\main.c
 
-CMakeFiles/Arthur.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Arthur.dir/main.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Desktop\Clinton\CPP_GAME\main.cpp > CMakeFiles\Arthur.dir\main.cpp.i
+CMakeFiles/Arthur.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Arthur.dir/main.c.i"
+	C:\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\Desktop\Clinton\CPP_GAME\main.c > CMakeFiles\Arthur.dir\main.c.i
 
-CMakeFiles/Arthur.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Arthur.dir/main.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Desktop\Clinton\CPP_GAME\main.cpp -o CMakeFiles\Arthur.dir\main.cpp.s
+CMakeFiles/Arthur.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Arthur.dir/main.c.s"
+	C:\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\Desktop\Clinton\CPP_GAME\main.c -o CMakeFiles\Arthur.dir\main.c.s
 
-CMakeFiles/Arthur.dir/src/Entity.cpp.obj: CMakeFiles/Arthur.dir/flags.make
-CMakeFiles/Arthur.dir/src/Entity.cpp.obj: CMakeFiles/Arthur.dir/includes_CXX.rsp
-CMakeFiles/Arthur.dir/src/Entity.cpp.obj: C:/Users/Admin/Desktop/Clinton/CPP_GAME/src/Entity.cpp
-CMakeFiles/Arthur.dir/src/Entity.cpp.obj: CMakeFiles/Arthur.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Desktop\Clinton\CPP_GAME\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Arthur.dir/src/Entity.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arthur.dir/src/Entity.cpp.obj -MF CMakeFiles\Arthur.dir\src\Entity.cpp.obj.d -o CMakeFiles\Arthur.dir\src\Entity.cpp.obj -c C:\Users\Admin\Desktop\Clinton\CPP_GAME\src\Entity.cpp
+CMakeFiles/Arthur.dir/src/render_window.c.obj: CMakeFiles/Arthur.dir/flags.make
+CMakeFiles/Arthur.dir/src/render_window.c.obj: CMakeFiles/Arthur.dir/includes_C.rsp
+CMakeFiles/Arthur.dir/src/render_window.c.obj: C:/Users/Admin/Desktop/Clinton/CPP_GAME/src/render_window.c
+CMakeFiles/Arthur.dir/src/render_window.c.obj: CMakeFiles/Arthur.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Desktop\Clinton\CPP_GAME\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Arthur.dir/src/render_window.c.obj"
+	C:\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Arthur.dir/src/render_window.c.obj -MF CMakeFiles\Arthur.dir\src\render_window.c.obj.d -o CMakeFiles\Arthur.dir\src\render_window.c.obj -c C:\Users\Admin\Desktop\Clinton\CPP_GAME\src\render_window.c
 
-CMakeFiles/Arthur.dir/src/Entity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Arthur.dir/src/Entity.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Desktop\Clinton\CPP_GAME\src\Entity.cpp > CMakeFiles\Arthur.dir\src\Entity.cpp.i
+CMakeFiles/Arthur.dir/src/render_window.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Arthur.dir/src/render_window.c.i"
+	C:\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\Desktop\Clinton\CPP_GAME\src\render_window.c > CMakeFiles\Arthur.dir\src\render_window.c.i
 
-CMakeFiles/Arthur.dir/src/Entity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Arthur.dir/src/Entity.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Desktop\Clinton\CPP_GAME\src\Entity.cpp -o CMakeFiles\Arthur.dir\src\Entity.cpp.s
-
-CMakeFiles/Arthur.dir/src/RenderWindow.cpp.obj: CMakeFiles/Arthur.dir/flags.make
-CMakeFiles/Arthur.dir/src/RenderWindow.cpp.obj: CMakeFiles/Arthur.dir/includes_CXX.rsp
-CMakeFiles/Arthur.dir/src/RenderWindow.cpp.obj: C:/Users/Admin/Desktop/Clinton/CPP_GAME/src/RenderWindow.cpp
-CMakeFiles/Arthur.dir/src/RenderWindow.cpp.obj: CMakeFiles/Arthur.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\Desktop\Clinton\CPP_GAME\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Arthur.dir/src/RenderWindow.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Arthur.dir/src/RenderWindow.cpp.obj -MF CMakeFiles\Arthur.dir\src\RenderWindow.cpp.obj.d -o CMakeFiles\Arthur.dir\src\RenderWindow.cpp.obj -c C:\Users\Admin\Desktop\Clinton\CPP_GAME\src\RenderWindow.cpp
-
-CMakeFiles/Arthur.dir/src/RenderWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Arthur.dir/src/RenderWindow.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Admin\Desktop\Clinton\CPP_GAME\src\RenderWindow.cpp > CMakeFiles\Arthur.dir\src\RenderWindow.cpp.i
-
-CMakeFiles/Arthur.dir/src/RenderWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Arthur.dir/src/RenderWindow.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Admin\Desktop\Clinton\CPP_GAME\src\RenderWindow.cpp -o CMakeFiles\Arthur.dir\src\RenderWindow.cpp.s
+CMakeFiles/Arthur.dir/src/render_window.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Arthur.dir/src/render_window.c.s"
+	C:\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\Desktop\Clinton\CPP_GAME\src\render_window.c -o CMakeFiles\Arthur.dir\src\render_window.c.s
 
 # Object files for target Arthur
 Arthur_OBJECTS = \
-"CMakeFiles/Arthur.dir/main.cpp.obj" \
-"CMakeFiles/Arthur.dir/src/Entity.cpp.obj" \
-"CMakeFiles/Arthur.dir/src/RenderWindow.cpp.obj"
+"CMakeFiles/Arthur.dir/main.c.obj" \
+"CMakeFiles/Arthur.dir/src/render_window.c.obj"
 
 # External object files for target Arthur
 Arthur_EXTERNAL_OBJECTS =
 
-Arthur.exe: CMakeFiles/Arthur.dir/main.cpp.obj
-Arthur.exe: CMakeFiles/Arthur.dir/src/Entity.cpp.obj
-Arthur.exe: CMakeFiles/Arthur.dir/src/RenderWindow.cpp.obj
-Arthur.exe: CMakeFiles/Arthur.dir/build.make
-Arthur.exe: CMakeFiles/Arthur.dir/linkLibs.rsp
-Arthur.exe: CMakeFiles/Arthur.dir/objects1.rsp
-Arthur.exe: CMakeFiles/Arthur.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Admin\Desktop\Clinton\CPP_GAME\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Arthur.exe"
+bin/Arthur.exe: CMakeFiles/Arthur.dir/main.c.obj
+bin/Arthur.exe: CMakeFiles/Arthur.dir/src/render_window.c.obj
+bin/Arthur.exe: CMakeFiles/Arthur.dir/build.make
+bin/Arthur.exe: CMakeFiles/Arthur.dir/linkLibs.rsp
+bin/Arthur.exe: CMakeFiles/Arthur.dir/objects1.rsp
+bin/Arthur.exe: CMakeFiles/Arthur.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Admin\Desktop\Clinton\CPP_GAME\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable bin\Arthur.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Arthur.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Arthur.dir/build: Arthur.exe
+CMakeFiles/Arthur.dir/build: bin/Arthur.exe
 .PHONY : CMakeFiles/Arthur.dir/build
 
 CMakeFiles/Arthur.dir/clean:

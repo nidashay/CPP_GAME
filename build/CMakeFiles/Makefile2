@@ -84,12 +84,12 @@ clean: CMakeFiles/Arthur.dir/clean
 CMakeFiles/Arthur.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\Desktop\Clinton\CPP_GAME\build\CMakeFiles --progress-num=1,2,3,4 "Built target Arthur"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\Desktop\Clinton\CPP_GAME\build\CMakeFiles --progress-num=1,2,3 "Built target Arthur"
 .PHONY : CMakeFiles/Arthur.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Arthur.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Desktop\Clinton\CPP_GAME\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Desktop\Clinton\CPP_GAME\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Arthur.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\Desktop\Clinton\CPP_GAME\build\CMakeFiles 0
 .PHONY : CMakeFiles/Arthur.dir/rule
