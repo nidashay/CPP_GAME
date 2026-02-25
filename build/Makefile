@@ -128,77 +128,53 @@ Arthur/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/build
 .PHONY : Arthur/fast
 
-main.obj: main.cpp.obj
+main.obj: main.c.obj
 .PHONY : main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/main.c.obj
+.PHONY : main.c.obj
 
-main.i: main.cpp.i
+main.i: main.c.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/main.cpp.i
-.PHONY : main.cpp.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cpp.s
+main.s: main.c.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/main.c.s
+.PHONY : main.c.s
 
-src/Entity.obj: src/Entity.cpp.obj
-.PHONY : src/Entity.obj
-
-# target to build an object file
-src/Entity.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/src/Entity.cpp.obj
-.PHONY : src/Entity.cpp.obj
-
-src/Entity.i: src/Entity.cpp.i
-.PHONY : src/Entity.i
-
-# target to preprocess a source file
-src/Entity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/src/Entity.cpp.i
-.PHONY : src/Entity.cpp.i
-
-src/Entity.s: src/Entity.cpp.s
-.PHONY : src/Entity.s
-
-# target to generate assembly for a file
-src/Entity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/src/Entity.cpp.s
-.PHONY : src/Entity.cpp.s
-
-src/RenderWindow.obj: src/RenderWindow.cpp.obj
-.PHONY : src/RenderWindow.obj
+src/render_window.obj: src/render_window.c.obj
+.PHONY : src/render_window.obj
 
 # target to build an object file
-src/RenderWindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/src/RenderWindow.cpp.obj
-.PHONY : src/RenderWindow.cpp.obj
+src/render_window.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/src/render_window.c.obj
+.PHONY : src/render_window.c.obj
 
-src/RenderWindow.i: src/RenderWindow.cpp.i
-.PHONY : src/RenderWindow.i
+src/render_window.i: src/render_window.c.i
+.PHONY : src/render_window.i
 
 # target to preprocess a source file
-src/RenderWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/src/RenderWindow.cpp.i
-.PHONY : src/RenderWindow.cpp.i
+src/render_window.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/src/render_window.c.i
+.PHONY : src/render_window.c.i
 
-src/RenderWindow.s: src/RenderWindow.cpp.s
-.PHONY : src/RenderWindow.s
+src/render_window.s: src/render_window.c.s
+.PHONY : src/render_window.s
 
 # target to generate assembly for a file
-src/RenderWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/src/RenderWindow.cpp.s
-.PHONY : src/RenderWindow.cpp.s
+src/render_window.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Arthur.dir\build.make CMakeFiles/Arthur.dir/src/render_window.c.s
+.PHONY : src/render_window.c.s
 
 # Help Target
 help:
@@ -212,12 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/Entity.obj
-	@echo ... src/Entity.i
-	@echo ... src/Entity.s
-	@echo ... src/RenderWindow.obj
-	@echo ... src/RenderWindow.i
-	@echo ... src/RenderWindow.s
+	@echo ... src/render_window.obj
+	@echo ... src/render_window.i
+	@echo ... src/render_window.s
 .PHONY : help
 
 
